@@ -43,7 +43,14 @@ def naming_system
   # HoH all the way to Species!
   
   biological_life_hash = { 
-    label: Kingdom
-  }
+    label: "Kingdom",
+    sub_category: {
+     label: "Phylum",
+     sub_category: {
+       label: "Class"
+     }
+   }
+ }
+ 
 
 end
